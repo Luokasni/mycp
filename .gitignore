@@ -3,3 +3,10 @@ mycp
 *.bin
 *.log
 d_backup/
+d/
+tests/test_mycp
+tests/gtest_mycp
+cov/
+*.gcda
+*.gcno
+*.gcov
