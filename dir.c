@@ -5,7 +5,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include "mycp.h"
-
+ 
 /* Recursively copy the contents of src into dst. Returns 0 if no errors. */
 int copy_directory(const char *src, const char *dst, const Options *opt)
 {
