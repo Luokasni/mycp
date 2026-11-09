@@ -7,7 +7,7 @@
 #
 MYCP="${MYCP:-./mycp}"
 [ -x "$MYCP" ] || { echo "mycp binary not found: $MYCP (run 'make' first)"; exit 2; }
-MYCP="$(realpath "$MYCP")"
+MYCP="$(realpath "$MYCP")" 
 
 WORK="$(mktemp -d /tmp/mycp_cli_XXXXXX)"
 trap 'rm -rf "$WORK"' EXIT
