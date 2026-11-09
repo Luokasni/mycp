@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# 
 # run_coverage.sh - code coverage of mycp using gcov (+ lcov for an HTML report)
 #
 # Usage:   make coverage          (or: bash tests/run_coverage.sh)
