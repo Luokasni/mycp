@@ -3,7 +3,7 @@
 #include <string.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include "mycp.h"
+#include "mycp.h" 
 
 static void usage(const char *prog)
 {
