@@ -1,4 +1,4 @@
-CC       = gcc
+CC       = gcc 
 CXX      = g++
 CFLAGS   = -Wall -Wextra -std=gnu11 -O2 -pthread
 CXXFLAGS = -Wall -Wextra -std=c++17 -O2 -pthread
