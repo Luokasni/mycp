@@ -4,7 +4,7 @@
 #include <time.h>
 #include <unistd.h>
 #include "mycp.h"
-
+ 
 static int log_fd = -1;
 
 /* Open (or create) the log file in append mode. */
