@@ -7,7 +7,7 @@
  * Every test runs in its own temporary directory under /tmp, which is
  * removed afterwards. Exit code is 0 only if every test passes.
  */
-#define _GNU_SOURCE
+#define _GNU_SOURCE 
 #include <errno.h>
 #include <fcntl.h>
 #include <ftw.h>
