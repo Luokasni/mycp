@@ -7,7 +7,7 @@
  * The C code is linked in as-is (mycp.h has extern "C" guards).
  * Each test gets its own temp directory, removed afterwards. The utility's
  * own printf/perror output is captured so the Google Test report stays clean.
- */
+ */ 
 #include <gtest/gtest.h>
 
 #include <cstdio>
