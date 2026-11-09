@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# 
 # run_valgrind.sh - memory checks for mycp with Valgrind
 #
 # Usage:   make valgrind          (or: bash tests/run_valgrind.sh)
