@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# 
 # test_cli.sh - end-to-end tests of the ./mycp command line
 #
 # Usage:  bash tests/test_cli.sh            (uses ./mycp)
