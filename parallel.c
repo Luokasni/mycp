@@ -2,7 +2,7 @@
  * parallel.c - multithreaded copy of one file using pthreads
  */
 #include <errno.h>
-#include <fcntl.h>
+#include <fcntl.h> 
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
