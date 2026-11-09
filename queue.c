@@ -7,7 +7,7 @@ void queue_init(Queue *q)
     q->head  = NULL;
     q->tail  = NULL;
     q->count = 0;
-}
+} 
 
 /* Append a task at the tail. Returns 0 on success, -1 on allocation failure. */
 int queue_push(Queue *q, const char *src, const char *dst,
